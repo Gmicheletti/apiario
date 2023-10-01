@@ -1,0 +1,59 @@
+
+OBJETIVO
+A plataforma sera um sistema de gestao de quantidade de colmeias e producao de cada uma.
+
+
+-----------------------------------------------------------------------------------------------------------------------------
+
+USUARIOS
+    - Administrador
+    - Apicultor
+
+    *ADMINISTRADOR*
+        - Acessar todas as colmeias
+        - Acessar a lista de apicultores
+        - Acessar o estoque da producao
+
+
+    *APICULTOR*
+        - Acessar as lista de colmeias
+        - Inserir novas colmeias
+        - Informar producao de cada colmeia
+
+-----------------------------------------------------------------------------------------------------------------------------
+
+COLMEIA
+    - Numero da colmeia
+
+    - Tipo de abelha
+        Abelha Tiuba (Melipona compressipes)
+        Abelha Urucu (Melipona scutellaris)
+        Abelha Mandacaia (Melipona quadrifasciata)
+        Abelha Europeia (Apis mellifera)
+        Abelha Asiatica (Apis cerana)
+        Abelha Ana Escura (Apis andreniformis)
+
+    - Classificacao da colmeia (Classificacao de acordo com a producao)
+        - A: 50 a 70kg
+        - B: 21 a 49kg
+        - C: 0 a 20kg
+
+    - Historico de producao
+
+    - Procedencia da colmeia
+        - Resgate (
+                    - Local do resgate
+                    - Responsavel pelo resgate
+                    - Data do resgate
+                    - Duração do resgate
+                                            )
+        - Multiplicacao
+
+    - Localizacao colmeia
+
+    - Status
+        - Inspecionado
+        - Producao coletada
+
+    - Historico de incidentes (Registrar qualquer incidente com a colmeia, por exemplo fuga da rainha e abandono do enxame)
+
