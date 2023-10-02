@@ -1,5 +1,5 @@
 
-OBJETIVO
+OBJETIVOS
 A plataforma sera um sistema de gestao de quantidade de colmeias e producao de cada uma.
 
 
