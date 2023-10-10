@@ -7,8 +7,6 @@ Figma: https://www.figma.com/file/9lpFSK3YAhAALw6mUk2Vwe/Api%C3%A1rio
 
 <div align = center>
 
-[![Badge License]][License]   
-[![Badge Likes]][#]
 
 <br>
 <br>
@@ -20,9 +18,9 @@ Figma: https://www.figma.com/file/9lpFSK3YAhAALw6mUk2Vwe/Api%C3%A1rio
 <br>
 <br>
 
-[<kbd> <br> KeyBinding Button <br> </kbd>][KBD]
+[<kbd> <br> GitHub Pages <br> </kbd>][KBD]
 
-[![Button Shield]][Shield]
+
 
 </div>
 
@@ -30,17 +28,6 @@ Figma: https://www.figma.com/file/9lpFSK3YAhAALw6mUk2Vwe/Api%C3%A1rio
 <br>
 
 
-<!---------------------------------------------------------------------------->
 
-[Button Shield]: https://img.shields.io/badge/Shield_Buttons-37a779?style=for-the-badge
+[KBD]: https://gmicheletti.github.io/Apiario/
 
-[License]: LICENSE
-[Shield]: Types/Shield.md
-[KBD]: Types/KBD.md
-[#]: #
-
-
-<!---------------------------------[ Badges ]---------------------------------->
-
-[Badge License]: https://img.shields.io/badge/-BY_SA_4.0-ae6c18.svg?style=for-the-badge&labelColor=EF9421&logoColor=white&logo=CreativeCommons
-[Badge Likes]: https://img.shields.io/github/stars/MarkedDown/Buttons?style=for-the-badge&labelColor=d0ab23&color=b0901e&logoColor=white&logo=Trustpilot
