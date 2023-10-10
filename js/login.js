@@ -1,4 +1,4 @@
-let nameUser = 'admin'
+let nameUser = 'Admin'
 let email = 'admin@teste.com'
 let password = 123456
 
