@@ -17,4 +17,4 @@ Figma: https://www.figma.com/file/9lpFSK3YAhAALw6mUk2Vwe/Api%C3%A1rio
 
 
 [GHP]: https://gmicheletti.github.io/Apiario/
-[GHP]: https://www.figma.com/file/9lpFSK3YAhAALw6mUk2Vwe/Api%C3%A1rio
+[FIG]: https://www.figma.com/file/9lpFSK3YAhAALw6mUk2Vwe/Api%C3%A1rio
