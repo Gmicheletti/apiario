@@ -1,5 +1,5 @@
-let nameUser = 'Guilherme'
-let email = 'guilherme@teste.com'
+let nameUser = 'admin'
+let email = 'admin@teste.com'
 let password = 123456
 
 
