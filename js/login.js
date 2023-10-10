@@ -30,7 +30,7 @@ if(inputEmail == email || nameUser && inputPassword == password){
       }, 1000);
     
      setTimeout(function() {
-       window.location.href = "/apiario/index.html";
+       window.location.href = "/Apiario/index.html";
      }, 3000);    
     
 
