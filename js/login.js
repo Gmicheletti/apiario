@@ -29,9 +29,9 @@ if(inputEmail == email || nameUser && inputPassword == password){
         document.querySelector('.div-logo-loading h3').innerText = `Bem vindo ${nameUser}`
       }, 1000);
     
-     //setTimeout(function() {
-      //  window.location.href = "/dash.html";
-     //}, 3000);    
+     setTimeout(function() {
+       window.location.href = "/apiario/index.html";
+     }, 3000);    
     
 
 } else if(inputEmail !== email || nameUser || inputPassword !== password){
