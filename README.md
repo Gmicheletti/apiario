@@ -7,8 +7,10 @@ Figma: https://www.figma.com/file/9lpFSK3YAhAALw6mUk2Vwe/Api%C3%A1rio
 
 <div align = center>
     <br>
-    [<ghp> <br> GitHub Pages <br> </ghp>][GHP]
-    [<fig> <br> GitHub Pages <br> </fig>][FIG]
+
+    [![GitHub Pages]][GitHubPages]
+    [![Figma]][Figma]
+
 </div>
 
 <br>
@@ -16,5 +18,5 @@ Figma: https://www.figma.com/file/9lpFSK3YAhAALw6mUk2Vwe/Api%C3%A1rio
 
 
 
-[GHP]: https://gmicheletti.github.io/Apiario/
-[FIG]: https://www.figma.com/file/9lpFSK3YAhAALw6mUk2Vwe/Api%C3%A1rio
+[GitHubPages]: https://gmicheletti.github.io/Apiario/
+[Figma]: https://www.figma.com/file/9lpFSK3YAhAALw6mUk2Vwe/Api%C3%A1rio
