@@ -6,22 +6,9 @@ Figma: https://www.figma.com/file/9lpFSK3YAhAALw6mUk2Vwe/Api%C3%A1rio
 <br>
 
 <div align = center>
-
-
-<br>
-<br>
-    
-# Buttons
-         
-**Links  ➞  Buttons**
-
-<br>
-<br>
-
-[<kbd> <br> GitHub Pages <br> </kbd>][KBD]
-
-
-
+    <br>
+    [<ghp> <br> GitHub Pages <br> </ghp>][GHP]
+    [<fig> <br> GitHub Pages <br> </fig>][FIG]
 </div>
 
 <br>
@@ -29,5 +16,5 @@ Figma: https://www.figma.com/file/9lpFSK3YAhAALw6mUk2Vwe/Api%C3%A1rio
 
 
 
-[KBD]: https://gmicheletti.github.io/Apiario/
-
+[GHP]: https://gmicheletti.github.io/Apiario/
+[GHP]: https://www.figma.com/file/9lpFSK3YAhAALw6mUk2Vwe/Api%C3%A1rio
