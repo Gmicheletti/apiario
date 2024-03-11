@@ -1,135 +1,104 @@
 body{
-    background: #000;
-    overflow: hidden;
-    padding: 0;
-    margin: 0;
+  overflow-x: hidden;
+  padding: 0;
+  margin: 0;
 }
 
 .bg-video {
-    position: fixed;
-    top: 0;
-    left: 0;
-    object-fit: cover;
-    height: 100%;
-    width: 100vw;
-    z-index: -1;
-    opacity: 50%;    
-  }
-
-  nav{    
-    background: rgba(80, 80, 80, 0.39);    
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);
-    /* mix-blend-mode: overlay; */
-    height: 80px;
-    display: flex;
-    justify-content:space-between;
-    align-items: center;
-    padding: 0 5%;
-  }
-
-
-  nav button{    
-    background: #fff;
-    height: 40px;
-    width: 120px;
-    border-radius: 80px;
-    border: none;
-    transition: 0.4s;
-    padding: 0;
-
-    color: #000;
-    font-weight: 700;
-    text-decoration: none;
-    text-align: center;
-    text-transform: uppercase;
+  position: absolute;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  opacity: 100%;    
   }
 
 
 
-  nav a:hover button{
-    background: rgb(0, 0, 0);
-    color: #fff;
-    transition: 0.4s;
-    cursor: pointer;
-  }
+section{
+  display: inline-flex;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+section div{
+  padding: 0 20px;
+}
+
+#hero{
+  background-color: #00000086;
+}
 
 
-#logo-nav{
-    filter: invert(100%);
-    height: 60px;
-    transition: 0.4s;
-  }
+#hero div{
+  width: 550px;
+  display: grid;
+  row-gap: 20px;
+  justify-items: center;
+}
 
-  section{
-    display: inline-flex;
-    width: 100vw;
-    height: 100vh;
-  }
+#arrow{
+  position: absolute;
+  bottom: 100px;
+  left: calc(50%-12px);
+  z-index: 1;
+}
 
-   section div:nth-child(1){
-    display: grid;
-    align-items: center;
-    align-content: center;
-    margin: 0 5%;
-    width: 800px;
- }
 
-  #logo-section{
-    filter: invert(100%);
-    height: 40vh;
-    position: absolute;
-    right: 0px;
-    bottom: 0%;
-    transition: 0.4s;
-    mix-blend-mode: overlay;
-    opacity: 70%;
-  }
+#sobre{
+  background-color: #fff;
+}
 
-  @media only screen and (max-width:767px){
-    #logo-section{
-        height: 10vh;
-        transition: 0.4s;    
-      }
-  }
+#comofunciona{
+  background-color: #000;
+}
 
-  @media only screen and (min-width:768px) and (max-width:1024px){
-    #logo-section{
-        height: 20vh;
-        transition: 0.4s;    
-      }
-  }
-
-  h1, h3, button{
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    color: #fff;
-    transition: 0.4s;   
-  }
-
-  h1{
-    font-size: 50px;
-    text-transform: uppercase;
-    width: 100%;
-    margin: 0;
-  }
+#vantagens{
+  background: rgb(240,240,240);
+  background: linear-gradient(0deg, rgba(240,240,240,1) 82%, rgba(255,255,255,1) 100%);
+}
 
 
 
-  h3{
-    font-size: 18px;
-    font-weight: 400;
-    width: 100%;
-  }
 
-  
-  @media only screen and (max-width:767px){
-    h1{
-    font-size: 30px;    
-    }
+.divider-top {
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+  margin-top: -56px;
+}
 
-    h3{
-        font-size: 14px;
-      }
+.divider-top svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 56px;
+}
 
+.divider-top .shape-fill {
+  fill: #fff;
+}
+
+
+.divider-bottom {
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  margin-bottom: -56px;
+}
+
+
+.divider-bottom svg {
+  width: calc(100% + 1.3px);
+  height: 56px;
+}
+
+.divider-bottom .shape-fill{
+  fill: #fff;
 }

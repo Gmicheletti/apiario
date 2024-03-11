@@ -1,0 +1,45 @@
+html{
+    scroll-behavior: smooth;
+}
+
+header{    
+    background: rgba(80, 80, 80, 0.39);    
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    width: 90vw !important;
+    height: 80px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 0 5%;
+    position: fixed;
+    left: 0;
+    z-index: 10;
+    }
+  
+  #logo{
+    height: 35px;
+    transition: 0.4s;
+  }
+
+  header nav{
+    display: flex;
+    align-items: center;
+    column-gap: 40px;
+  }
+
+  nav a{
+    text-decoration: none;
+  }
+
+  nav a:hover p{
+    color: #F3C63E; 
+  }
+ 
+  @media only screen and (max-width:1024px){
+    .link-nav{
+        display: none;
+    }
+  }
+

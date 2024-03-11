@@ -1,0 +1,32 @@
+*{
+  font-family: poppins,system-ui;
+  color: #fff;
+  transition: 0.4s;   
+}
+
+h1{
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 54px;
+  letter-spacing: 0em;
+  text-align: center;
+  margin: 0;
+}
+
+h2{
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 0em;
+  text-align: center;
+  margin: 0;
+}
+
+p{
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: center;
+  margin: 0;
+}

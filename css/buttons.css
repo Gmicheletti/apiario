@@ -1,0 +1,32 @@
+button{
+    font-family: poppins,system-ui;
+    color: #fff;
+    transition: 0.4s;   
+  }
+
+
+  .btn-yellow{    
+    background: #F3C63E;
+    height: 40px;
+    min-width: 120px;
+    width: fit-content;
+    border-radius: 80px;
+    border: none;
+    transition: 0.4s;
+    padding: 10px 20px;
+
+    color: #000;
+    font-weight: 700;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+
+
+  .btn-yellow:hover{
+    background: rgb(0, 0, 0);
+    color: #fff;
+    transition: 0.4s;
+    cursor: pointer;
+  }
