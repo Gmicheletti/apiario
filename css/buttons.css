@@ -14,7 +14,6 @@ button{
     border: none;
     transition: 0.4s;
     padding: 10px 20px;
-
     color: #000;
     font-weight: 700;
     text-decoration: none;
@@ -27,6 +26,34 @@ button{
   .btn-yellow:hover{
     background: rgb(0, 0, 0);
     color: #fff;
+    transition: 0.4s;
+    cursor: pointer;
+  }
+
+
+
+
+  .btn-black{    
+    background: #000;
+    height: 40px;
+    min-width: 120px;
+    width: fit-content;
+    border-radius: 80px;
+    border: none;
+    transition: 0.4s;
+    padding: 10px 20px;
+    color: #F3C63E;
+    font-weight: 700;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+
+
+  .btn-black:hover{
+    background: #F3C63E;
+    color: #000;
     transition: 0.4s;
     cursor: pointer;
   }

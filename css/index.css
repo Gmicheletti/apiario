@@ -4,6 +4,48 @@ body{
   margin: 0;
 }
 
+section{
+  display: inline-flex;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.subtitulo{
+  display: flex;
+  align-items: center;
+  column-gap: 5px;
+  padding: 0;
+}
+
+.descricao{
+  width: 422px;
+  color: #000;
+  text-align: left;
+}
+
+.content{
+  width: 1024px;
+  display: flex;
+}
+
+.content-left, #sobre .content-right{
+  width: 50%;
+  display: grid;
+  align-content: center;
+  row-gap: 20px;
+}
+
+
+
+/* ------------------------HERO------------------------- */
+#hero{
+  background-color: #00000086;
+}
+
 .bg-video {
   position: absolute;
   top: 0;
@@ -14,25 +56,6 @@ body{
   z-index: -1;
   opacity: 100%;    
   }
-
-
-
-section{
-  display: inline-flex;
-  width: 100%;
-  height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-section div{
-  padding: 0 20px;
-}
-
-#hero{
-  background-color: #00000086;
-}
 
 
 #hero div{
@@ -49,22 +72,117 @@ section div{
   z-index: 1;
 }
 
-
+/* ------------------------SOBRE------------------------- */
 #sobre{
+  height: 500px;
+}
+#sobre .content{
   background-color: #fff;
 }
 
-#comofunciona{
-  background-color: #000;
+#img-sistema{
+  width: 90%;
 }
 
-#last-section{
+#sobre .subtitulo p{
+  color: #000;
+}
+
+/* ------------------------COMO-FUNCIONA------------------------- */
+#comofunciona{
+  background-color: #000;
+  background-image: url(/elements/bg-como-funciona.jpg);
+  height: 700px;
+}
+
+#comofunciona .subtitulo p, #comofunciona .descricao{
+  color: #fff
+}
+#comofunciona .content-right {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#comofunciona .content-right img{
+  width: 144px;
+  height: 166px;
+  opacity: 50%;
+  transition: 0.4s;
+}
+
+#comofunciona .content-right img:hover{
+  opacity: 100%;
+  transition: 0.4s;
+}
+
+
+#colmeia-pt1{
+  margin-bottom: -25px;
+}
+
+
+#colmeia-pt3{
+  margin-top: -25px;
+}
+
+#colmeia-pt3:before{
+  content: url(/elements/passe-o-mouse.svg);
+  position: absolute;
+  margin-top: 150px;
+  margin-left: 90px;
+}
+
+#colmeia-pt1,#colmeia-pt2,#colmeia-pt3{
+  display: inline-flex;
+  column-gap: 20px;
+}
+
+
+.card-colmeia:hover{
+  opacity: 100%;
+  transition: 0.4s;
+} 
+
+
+
+#colmeia-pt1 .colmeia-content,#colmeia-pt2 .colmeia-content,#colmeia-pt3 .colmeia-content{
+  opacity: 0%;
+  transition: 0.4s;
+  position: absolute;
+  background: #fff;
+  border-radius: 20px;
+  width: 300px;
+  height: 175px;
+  z-index: 1;
+}
+
+#colmeia-pt1 .card1 .card-colmeia:hover .colmeia-content{
+  opacity: 100%;
+  transition: 0.4s;
+}
+
+
+#colmeia-pt1 .card1 p{
+  margin-top: -150px;
+  margin-left: -150px;
+}
+
+#colmeia-pt1 .card2 p{
+  margin-top: -150px;
+  margin-left: 150px;
+}
+
+
+/* ------------------------VANTAGENS-ORCAMENTOS------------------------- */
+#vantagensOrcamentos{
   background: rgb(240,240,240);
   background: linear-gradient(0deg, rgba(240,240,240,1) 82%, rgba(255,255,255,1) 100%);
 }
 
 
 
+/* ------------------------DIVISORES------------------------- */
 
 .divider-top {
   width: 100%;
