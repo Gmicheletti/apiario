@@ -91,7 +91,7 @@ section{
 /* ------------------------COMO-FUNCIONA------------------------- */
 #comofunciona{
   background-color: #000;
-  background-image: url(/elements/bg-como-funciona.jpg);
+  background-image: url(./elements/bg-como-funciona.jpg);
   height: 700px;
 }
 
@@ -127,7 +127,7 @@ section{
 }
 
 #colmeia-pt3:before{
-  content: url(/elements/passe-o-mouse.svg);
+  content: url(./elements/passe-o-mouse.svg);
   position: absolute;
   margin-top: 150px;
   margin-left: 90px;
