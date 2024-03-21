@@ -259,6 +259,7 @@ section{
 
 #orcamento form input, #orcamento form select{
   width: 48%;
+  color: #5c5c5c;
 }
 
 #orcamento form input[type="aria-text"]{
