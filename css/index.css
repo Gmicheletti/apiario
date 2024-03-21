@@ -57,6 +57,9 @@ section{
   opacity: 100%;    
   }
 
+#hero p{
+  width: 600px;
+}
 
 #hero div{
   width: 750px;
