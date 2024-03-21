@@ -182,7 +182,7 @@ section{
   background: linear-gradient(0deg, rgba(240,240,240,1) 82%, rgba(255,255,255,1) 100%);
   display: grid;
   height: fit-content;
-  padding: 40px 0;
+  padding: 60px 0;
 }
 
 #vantagens{
@@ -242,7 +242,7 @@ section{
   border-radius: 20px;
   display: flex;
   flex-direction: column;
-  margin: 40px 0;
+  margin: 80px 0;
 }
 
 #orcamento h3 + h2{
