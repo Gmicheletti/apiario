@@ -289,7 +289,6 @@ section{
   width: 100%;
   overflow: hidden;
   line-height: 0;
-  transform: rotate(180deg);
   margin-top: -56px;
 }
 
@@ -298,6 +297,7 @@ section{
   display: block;
   width: calc(100% + 1.3px);
   height: 56px;
+  transform: scaleY(-1);
 }
 
 .divider-top .shape-fill {
