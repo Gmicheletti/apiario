@@ -259,15 +259,28 @@ section{
 
 #orcamento form input, #orcamento form select{
   width: 48%;
-  color: #5c5c5c;
+  color: #ffffff;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid rgb(255, 255, 255);
+  height: 40px;
+}
+
+#orcamento form input:focus, #orcamento form select:focus{
+  border: none;
+  border-bottom: 1px solid #F3C63E;
+  outline: none;
 }
 
 #orcamento form input[type="aria-text"]{
   width: 100%;
+  height: 100px;
 }
+
 
 #orcamento a button{
   width: 1140px !important;
+  margin-top: 20px;
 }
 
 /* ------------------------DIVISORES------------------------- */
