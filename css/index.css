@@ -94,8 +94,8 @@ section{
 /* ------------------------COMO-FUNCIONA------------------------- */
 #comofunciona{
   background-color: #000;
-  background-image: url("./elements/bg-como-funciona.jpg");
-  height: 700px;
+  background-image: url("/elements/bg-como-funciona.jpg");
+  height: 750px;
 }
 
 #comofunciona .subtitulo p, #comofunciona .descricao{
@@ -104,7 +104,10 @@ section{
 #comofunciona .content-right {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 
 #comofunciona .content-right img{
@@ -121,59 +124,100 @@ section{
 
 
 #colmeia-pt1{
-  margin-bottom: -25px;
+  margin-bottom: 40px;
 }
 
 
 #colmeia-pt3{
   margin-top: -25px;
+  z-index: 1;
 }
 
-#colmeia-pt3:before{
-  content: url("./elements/passe-o-mouse.svg");
-  position: absolute;
-  margin-top: 150px;
-  margin-left: 90px;
+#colmeia-pt4{
+  margin-top: 40px;
+  height: 50px;
+
 }
 
-#colmeia-pt1,#colmeia-pt2,#colmeia-pt3{
+#colmeia-pt4 img{
+  opacity: 100% !important;
+  height: 50px !important;
+  width: 120px !important;
+}
+
+#colmeia-pt1,#colmeia-pt2,#colmeia-pt3,#colmeia-pt3{
   display: inline-flex;
   column-gap: 20px;
 }
 
 
-.card-colmeia:hover{
-  opacity: 100%;
-  transition: 0.4s;
-} 
 
-
-
-#colmeia-pt1 .colmeia-content,#colmeia-pt2 .colmeia-content,#colmeia-pt3 .colmeia-content{
+.card-colmeia div{
+  width: 0px;
+  height: 50px;
+  background-color: #fff;
+  border-radius: 16px;
+  padding: 15px;
   opacity: 0%;
   transition: 0.4s;
-  position: absolute;
-  background: #fff;
-  border-radius: 20px;
-  width: 300px;
-  height: 175px;
-  z-index: 1;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  flex-wrap: nowrap;
 }
 
-#colmeia-pt1 .card1 .card-colmeia:hover .colmeia-content{
+.card-colmeia:hover div{
+  width: 250px;
+  height: 150px;
   opacity: 100%;
   transition: 0.4s;
+  z-index: 10;
+}
+
+.card-colmeia h3{
+  color: #cb9800;
+  font-size: 12px;
+  font-weight: 400;
+  text-align: left;
+  width: 250px;
+  
+}
+
+.card-colmeia p{
+  color: #000;
+  font-size: 12px;
+  font-weight: 400;
+  text-align: left;
+  width: 250px;
+
 }
 
 
-#colmeia-pt1 .card1 p{
-  margin-top: -150px;
-  margin-left: -150px;
+.card-colmeia:nth-child(1) div{
+  margin: -150px 0 0 55px;
 }
 
-#colmeia-pt1 .card2 p{
-  margin-top: -150px;
-  margin-left: 150px;
+.card-colmeia:nth-child(1):hover div{
+  margin: -250px 0 0 -300px;
+}
+
+
+.card-colmeia:nth-child(2) div{
+  margin: -150px 0 0 55px;
+}
+
+.card-colmeia:nth-child(2):hover div{
+  margin: -250px -400px 0 150px;
+}
+
+
+.card-colmeia:nth-child(3) div{
+  margin: -150px 0 0 55px;
+}
+
+.card-colmeia:nth-child(3):hover div{
+  margin: -250px -400px 0 150px;
 }
 
 
